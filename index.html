@@ -35,12 +35,11 @@
       flex-direction: column;
       justify-content: center;
     }
-   .logo {
-  width: 175px;
-  margin: 0 auto 25px auto; /* Ortalamak için auto kullandık */
-  display: block;
-}
-
+    .logo {
+      width: 175px;
+      margin: 0 auto 25px auto;
+      display: block;
+    }
     h2 {
       font-size: 37.5px;
       margin-bottom: 15px;
@@ -82,16 +81,20 @@
 <body>
   <div class="container">
     <div class="card">
-      <img class="logo" src="logo.png" alt="Logo">
+      <!-- Logo örneği: değiştirmek istersen kendi logo.png dosyanı ekle -->
+      <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg" alt="Logo">
+      
       <h2>Mustafa Aytaç Numan</h2>
       <p>Ticx Media</p>
       <a class="tel" href="tel:+905423868036">📞 +90 542 386 80 36</a>
+
       <p class="social">
-        <a href="https://www.instagram.com/ticxmedia" target="_blank">
+        <a href="https://www.instagram.com/ticxmedia" target="_blank" rel="noopener noreferrer">
           <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram"> @ticxmedia
         </a>
       </p>
-      <a class="vcf" href="mustafaaytacnuman.vcf" download>📥 Rehbere Ekle</a>
+
+      <a class="vcf" href="https://ticxmedia.github.io/MustafaAytacNuman/mustafaaytacnuman.vcf" download>📥 Rehbere Ekle</a>
     </div>
   </div>
 </body>
